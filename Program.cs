@@ -5,6 +5,6 @@ Console.Write("---Rolagem de Dado---\n");
 Console.Write("Quantos lados? ");
 int lados = Convert.ToInt32(Console.ReadLine());
 
-int Rolagem = RandomNumberGenerator.GetInt32(2, lados+2);
+int Rolagem = RandomNumberGenerator.GetInt32(1, lados+1);
 
-Console.Write($"\nRolagem: {Rolagem}");
+Console.Write($"\nResultado: {Rolagem}");
